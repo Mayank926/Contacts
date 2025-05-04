@@ -5,25 +5,25 @@ function App() {
   return (
     <div className="contacts">
       <Contacts
-        img="Contacts/images/mr-whiskerson.png"
+        img="images/mr-whiskerson.png"
         name="Mr. Whiskerson"
         phone="(212) 555-1234"
         email="mr.whiskaz@catnap.meow"
       />
       <Contacts
-       img="Contacts/images/fluffykins.png"
+       img="images/fluffykins.png"
         name="Fluffykins"
         phone="(212) 555-2345"
         email="fluff@me.com"
       />
       <Contacts
-        img="Contacts/images/felix.png"
+        img="images/felix.png"
         name="Felix"
         phone="(212) 555-3456"
         email="thecat@hotmail.com"
       />
       <Contacts
-        img="Contacts/images/pumpkin.png"
+        img="images/pumpkin.png"
         name="Pumpkin"
         phone="(212) 555-4567"
         email="pumpkin@scrimba.com"
