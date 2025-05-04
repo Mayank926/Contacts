@@ -1,35 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Contacts from "./Contacts";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="contacts">
+      <Contacts
+        img="Contacts/images/mr-whiskerson.png"
+        name="Mr. Whiskerson"
+        phone="(212) 555-1234"
+        email="mr.whiskaz@catnap.meow"
+      />
+      <Contacts
+       img="Contacts/images/fluffykins.png"
+        name="Fluffykins"
+        phone="(212) 555-2345"
+        email="fluff@me.com"
+      />
+      <Contacts
+        img="Contacts/images/felix.png"
+        name="Felix"
+        phone="(212) 555-3456"
+        email="thecat@hotmail.com"
+      />
+      <Contacts
+        img="Contacts/images/pumpkin.png"
+        name="Pumpkin"
+        phone="(212) 555-4567"
+        email="pumpkin@scrimba.com"
+      />
+    </div>
+  );
 }
 
-export default App
+export default App;
